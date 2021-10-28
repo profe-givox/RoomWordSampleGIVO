@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-public class WordListAdapter extends  ListAdapter<Word, WordViewHolder> {
+public class WordListAdapter extends ListAdapter<Word, WordViewHolder> {
 
     public WordListAdapter(@NonNull DiffUtil.ItemCallback<Word> diffCallback) {
         super(diffCallback);
